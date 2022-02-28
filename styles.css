@@ -1,5 +1,9 @@
 @tailwind utilities;
 
+polygon {
+  mix-blend-mode: multiply;
+}3
+
 .sidebar li.active > a,
 .sidebar a {
   overflow: hidden;
