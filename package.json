@@ -1,0 +1,29 @@
+{
+  "name": "swc-site",
+  "author": "DongYoon Kang",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@reach/skip-nav": "^0.16.0",
+    "focus-visible": "^5.1.0",
+    "markdown-to-jsx": "^6.11.4",
+    "next": "^12.0.3",
+    "nextra": "^1.1.0",
+    "nextra-theme-docs": "^1.2.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "prettier": {
+    "embeddedLanguageFormatting": "off",
+    "htmlWhitespaceSensitivity": "strict"
+  }
+}
